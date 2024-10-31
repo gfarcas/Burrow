@@ -32,8 +32,8 @@ dockers:
   goarm: ''
   dockerfile: Dockerfile.gorelease
   image_templates:
-  - 'docker.pkg.github.com/linkedin/burrow/burrow:latest'
-  - 'docker.pkg.github.com/linkedin/burrow/burrow:{{ .Tag }}'
+  - 'docker.pkg.github.com/gfarcas/burrow/burrow:latest'
+  - 'docker.pkg.github.com/gfarcas/burrow/burrow:{{ .Tag }}'
   extra_files:
   - docker-config/burrow.toml
   build_flag_templates:
